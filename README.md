@@ -1,4 +1,6 @@
 <a name="top"></a>
+[![Build status](https://ci.appveyor.com/api/projects/status/a0786y4ki99br9c1?svg=true)](https://ci.appveyor.com/project/MKSInc/ra-hw-8-hooks-context-1-useeffect-2-usejsonfetch-3)
+### [Gh-pages](https://mksinc.github.io/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/)
 # 8. Домашнее задание к лекции «Hooks, Context API»
 
 **Перейти к:**  
@@ -81,5 +83,3 @@ Authorization: Bearer <ваш_токен>
 1. Профиль и токен должны храниться в localStorage/sessionStorage (при перезагрузке страницы должна так же загружаться лента новостей, если мы аутентифицированы)
 1. Должна быть обработка ошибок, если получена ошибка 401 - то нужно разлогинивать пользователя (удалять всё из localStorage/sessionStorage)
 1. Не используйте React Router, просто подменяйте компоненты в зависимости от текущего состояния аутентификации.
-
-
