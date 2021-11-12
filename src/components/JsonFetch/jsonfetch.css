@@ -1,0 +1,9 @@
+/* jsonfetch.css */
+
+.jsonfetch > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.jsonfetch__title {
+  margin-bottom: 5px;
+}

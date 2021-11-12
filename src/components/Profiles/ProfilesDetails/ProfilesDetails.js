@@ -6,7 +6,7 @@ function ProfilesDetails({ selectedID }) {
     url: `${selectedID}.json`,
     initialData: null,
     dataName: 'details',
-  })
+  });
 
   useEffect(() => {
     return () => fetchController.abort()

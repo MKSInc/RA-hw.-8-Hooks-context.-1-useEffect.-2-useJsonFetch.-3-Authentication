@@ -1,4 +1,5 @@
 import Profiles from './components/Profiles';
+import JsonFetch from './components/JsonFetch/';
 
 export default function App() {
 	return (
@@ -45,6 +46,7 @@ export default function App() {
 					</header>
 					<div className={'task__body'}>
 						{/* Компонент задачи 2. */}
+						<JsonFetch />
 					</div>
 				</div>
 
