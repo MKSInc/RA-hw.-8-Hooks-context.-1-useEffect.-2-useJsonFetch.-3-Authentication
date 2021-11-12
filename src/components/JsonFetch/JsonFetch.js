@@ -2,7 +2,7 @@ import useJsonFetch from './hooks/useJsonFetch';
 import './jsonfetch.css';
 
 function Success () {
-  const [{ data }] = useJsonFetch('http://localhost:8080/data');
+  const [{ data }] = useJsonFetch('https://ra-8-2-usejsonfetch.herokuapp.com/data');
 
   return (
     <div className={'success'}>
@@ -13,7 +13,7 @@ function Success () {
 }
 
 function Error () {
-  const [{ error }] = useJsonFetch('http://localhost:8080/error');
+  const [{ error }] = useJsonFetch('https://ra-8-2-usejsonfetch.herokuapp.com/error');
 
   return (
     <div className={'error'}>
@@ -24,7 +24,7 @@ function Error () {
 }
 
 function Loading () {
-  const [{ loading }] = useJsonFetch('http://localhost:8080/loading');
+  const [{ loading }] = useJsonFetch('https://ra-8-2-usejsonfetch.herokuapp.com/loading');
 
   return (
     <div className={'loading'}>
