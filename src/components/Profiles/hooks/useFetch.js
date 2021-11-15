@@ -1,5 +1,6 @@
 import { useState, useEffect, useContext } from 'react';
 import ProfilesContext from '../ProfilesContext/ProfilesContext';
+import getAvatarUrl from '../utils/getAvatarUrl';
 
 /**
  * Хук useFetch выполняет запрос на переданный url и возвращает полученные данные.
@@ -25,6 +26,7 @@ export default function useFetch({ url, initialData, dataName }) {
         const response = await fetch(process.env.REACT_APP_PROFILES_DATA_URL + url, { signal: fetchController.signal });
         if (!response.ok) throw new Error(`${response.url} ${response.status}`);
         const data = await response.json();
+        if (data.avatar) data.avatar = getAvatarUrl(data.avatar);
         setData(data);
         // Убираем значек загрузки.
         setIsLoading((prevValue) => ({...prevValue, [dataName]: false}));
