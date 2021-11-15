@@ -8,10 +8,14 @@ import { useState } from 'react';
  * @returns 
  */
 
-export default function LoadResources() {
+export default function LoadResources({ setIsSrcLaded }) {
   const [isMount, setIsMount] = useState(true);
 
-  setTimeout(() => setIsMount(false), 1);
+  setTimeout(() => {
+    setIsSrcLaded(true);
+    setIsMount(false);
+  }, 1);
+  
 
   if (isMount) return (
     <>

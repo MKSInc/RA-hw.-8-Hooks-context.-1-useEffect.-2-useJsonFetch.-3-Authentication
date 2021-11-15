@@ -12,6 +12,8 @@ export default function Profiles() {
     details: false,
   });
 
+  const [isSrcLoaded, setIsSrcLaded] = useState(false);
+
   const handleOnItemClick = (item) => {
     setSelectedID(item.id);
   }
@@ -19,7 +21,7 @@ export default function Profiles() {
   return (
     <ProfilesContext.Provider value={{setIsLoading}}>
       <div className={'profiles'}>
-        <LoadResources />
+        {isSrcLoaded ? null: <LoadResources setIsSrcLaded={setIsSrcLaded}/>}
         <div className={'profiles__column-1'}>
           <ProfilesList handleOnItemClick={handleOnItemClick} selectedID={selectedID} isLoading={isLoading} />
         </div>
