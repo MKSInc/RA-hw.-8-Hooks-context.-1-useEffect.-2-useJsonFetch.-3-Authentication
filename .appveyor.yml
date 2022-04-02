@@ -22,7 +22,7 @@ test_script:
 environment:
   CI: false
   my_variable:
-    secure: AHqZsGNbKL+RxqV2hVEAbGM8RTIGSbxiD1MI16xTYS+IXcuQqLd/6z/LalapwHdt
+    secure: A6dU9g4bPX4Cv7wtaEjjuA==
 
 deploy_script: # скрипт развёртывания
   - git config --global credential.helper store
