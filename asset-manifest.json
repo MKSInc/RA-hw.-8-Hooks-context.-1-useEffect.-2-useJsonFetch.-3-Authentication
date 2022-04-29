@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/css/main.411c8013.chunk.css",
+    "main.js": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/main.fb18392a.chunk.js",
+    "main.js.map": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/main.fb18392a.chunk.js.map",
+    "runtime-main.js": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/runtime-main.f4c089e7.js",
+    "runtime-main.js.map": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/runtime-main.f4c089e7.js.map",
+    "static/js/2.086a4476.chunk.js": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/2.086a4476.chunk.js",
+    "static/js/2.086a4476.chunk.js.map": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/2.086a4476.chunk.js.map",
+    "index.html": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/index.html",
+    "static/css/main.411c8013.chunk.css.map": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/css/main.411c8013.chunk.css.map",
+    "static/js/2.086a4476.chunk.js.LICENSE.txt": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/js/2.086a4476.chunk.js.LICENSE.txt",
+    "static/media/profiles.css": "/RA-hw.-8-Hooks-context.-1-useEffect.-2-useJsonFetch.-3-Authentication/static/media/loading-list.ac474e57.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c089e7.js",
+    "static/js/2.086a4476.chunk.js",
+    "static/css/main.411c8013.chunk.css",
+    "static/js/main.fb18392a.chunk.js"
+  ]
+}
